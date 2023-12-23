@@ -42,7 +42,15 @@ class SamrtPhone extends cellPhone implements myCamera,myNetwork{
     public void getwifi(String network){
         System.out.println("Connecting to "+network);
     }
+
+    // We can override this method also
+    @Override
+    public void record4k(){
+        System.out.println("Wait!   Switching to 4k...");
+    }
 }
+
+
 public class UseOfDefault {
     public static void main(String[] args) {
         SamrtPhone sp = new SamrtPhone();
