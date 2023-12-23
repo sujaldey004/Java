@@ -3,7 +3,7 @@ interface myCamera{
     void panormamode();
 
 
-    // This is a default mathod and its body in tnterface
+    // This is a default method and we have to implement its body in interface
     default void record4k(){
         System.out.println("Recording in 4k..");
     }
