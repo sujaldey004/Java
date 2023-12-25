@@ -1,11 +1,17 @@
 package Abstract_question;
 public class question2 {
     public static void main(String[] args) {
-        human h = new human();
+        /*monkey m = new human();
+        m.jump();
+        m.bite();*/     // --> this is polymorphism, we have access of methods of monkey class
+
+
+        human h = new human();    // we have access of all methods
+        h.bite();
+        h.jump();
         h.eat();
         h.sleep();
-        h.jump();
-        h.bite();
+        h.talk();
     }
 }
 interface basicAnimal{
@@ -26,5 +32,8 @@ class human extends monkey implements basicAnimal{
     }
     public void sleep(){
         System.out.println("sleeping...");
+    }
+    public void talk(){
+        System.out.println("Talking...");
     }
 }
