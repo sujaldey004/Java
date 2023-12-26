@@ -2,11 +2,11 @@ package Access_modifier;
 public class Sam1 {
     public static void main(String[] args) {
         abc sc = new abc();
-        sc.meth1();       // --> In class all access modifier can work or use
-        //System.out.println(sc.p);
-        //System.out.println(sc.q);
-        //System.out.println(sc.r);
-        //System.out.println(sc.s);     
+        //sc.meth1();
+        System.out.println(sc.p);
+        System.out.println(sc.q);
+        System.out.println(sc.r);
+        //System.out.println(sc.s);     --> Private methods and properties can only used in its own class
     }
 }
 class abc{
