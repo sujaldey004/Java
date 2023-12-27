@@ -1,6 +1,8 @@
 package question_package.que3_with_que2.que2;
 import java.util.Scanner;
 public class problem2 {
+    protected int v = 69;
+    int d = 88;
     public static void main(String[] args) {
         System.out.println("its is very simple, just enter your name = ");
         Scanner sc = new Scanner(System.in);
