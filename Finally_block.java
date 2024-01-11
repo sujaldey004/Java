@@ -9,9 +9,9 @@ public class Finally_block {
         catch(Exception e){
             System.out.println("Cannot divide by zero");
         }
-        //finally{           //  Finally keyword cannot be used without try-catch
+        finally{           //  Finally keyword cannot be used without try-catch
             System.out.println("Execute this also");
-       // }
+        }
         return 0;
     }
     public static void main(String[] args) {
