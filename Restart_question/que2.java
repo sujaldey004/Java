@@ -16,9 +16,10 @@ public class que2 {
                 break;
             }
             catch(Exception e){
-                System.out.println("Error");
+                System.out.println("invalid index");
                 i++;
             }
         }
+        System.out.println("ERROR");
     }
 }
