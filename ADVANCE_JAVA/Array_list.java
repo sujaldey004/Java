@@ -24,7 +24,7 @@ public class Array_list {
 
         System.out.println(list.subList(2, 7));
 
-        Object[] a = list.toArray();  // toArray method for 
+        Object[] a = list.toArray();  // toArray method for printing all element in a sequence by converting it into an array
         System.out.println(list.indexOf(10));
         System.out.println(list.lastIndexOf(10));
         for(int i = 0; i < list.size(); i++){
