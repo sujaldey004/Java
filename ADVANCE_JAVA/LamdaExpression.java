@@ -1,16 +1,15 @@
 package ADVANCE_JAVA;
 
-
-@FunctionalInterface  // Interface with single method
-interface lamda {
-    public void v1();
+public class LamdaExpression{     // Lamda Expression only work for Functional interface
+    public static void main(String[] args) {
+        nothing u = (a)->{
+            System.out.println("I am Lamda Expression " + a);
+        };
+        u.n(5);
+    }
 }
 
-public class LamdaExpression{
-    public static void main(String[] args) {
-        lamda obj = ()->{
-            System.out.println("I am Lamda Expression");
-        };
-        obj.v1();
-    }
+@FunctionalInterface  // Functional Interface is an interface in which we only one single method
+interface nothing {
+    void n(int a);
 }
